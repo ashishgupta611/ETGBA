@@ -3,7 +3,7 @@
 import { ReactNode } from "react";
 import Link from 'next/link';
 import Image from 'next/image';
-import bgImage from '../resources/images/bg_home.png';
+import bgImage from '@/src/resources/images/bg_home.png';
 
 const Main = ({ href = '/', hrefName = 'HOME', children }: { href?: string, hrefName?: string, children: ReactNode }) => {
     return (
